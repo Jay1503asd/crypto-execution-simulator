@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+
+# downloaded market data (top-level only; NOT execsim/data source code)
+/data/
+
+# generated reports
+*.html
+*.csv
+!tests/**/*.csv
+.venv/
+venv/
